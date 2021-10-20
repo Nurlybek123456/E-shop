@@ -1,0 +1,153 @@
+.header{
+  background-color: #573ba3;
+}
+.dropdown{
+  float: left;
+}
+.nav{
+  justify-content: space-between;
+}
+.txt{
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  font-family: cursive;
+}
+#headl2{
+  margin-top: 150px;
+}
+.img1{
+  margin-top: 150px;
+  text-align: center;
+}
+a:hover{
+  color:black!important;
+}
+.carousel-item{
+  height:700px;
+}
+.carousel-item img{
+  text-align: center;
+  height:700px;
+}
+#headl1{
+  float: left;
+  margin-right:750px;
+}
+.headl1_{
+  color:black;
+}
+.stores__inner{
+
+}
+#stl{
+  font-size: 20px;
+  font-family: sans-serif;
+}
+.btn {
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+.stores__img{
+  border:1px solid #573ba3;
+  border-radius:10%;
+  background-color: white;
+  padding-left: 50px;
+}
+#store6{
+  padding-top:0!important;
+}
+.stores__subtittle{
+  text-align: center;
+}
+.stores__tittle h1{
+  background-color:#573ba3;
+}
+.imgs{
+  text-align: center;
+}
+.recomend {
+    margin-top: 40px;
+}
+
+.recomend__title {
+    text-align: center;
+    margin-bottom: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 30px;
+    background-color: #573ba3;
+    font-family: cursive;
+
+}
+
+.recomend__title::after {
+    content: "";
+    display: block;
+    width: 40px;
+    height: 1px;
+    background-color: #000;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-top: 20px;
+}
+
+.recomend__img p {
+    text-align: center;
+}
+
+.recomend__img img {
+    border: 1px solid rgb(128, 128, 128);
+    margin-bottom: 20px;
+}
+
+.recomend__name {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.recomend__text {
+    width: 500px;
+    text-align: center;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 100px;
+}
+.recomend__inner{
+
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.img2{
+  width: 350px;
+  height: 300px;
+}
+.img3{
+  width:300px;
+  height: 500px;
+}
+
+@media(max-width:1010px) {
+  .img1{
+    display: none;
+  }
+  .img2{
+    width:200px;
+    height: 250px;
+  }  .img3{
+      width:200px;
+      height: 250px;
+    }
+    #headl2{
+      padding-bottom: 150px;
+    }
+    .img4{
+      width:300px;
+      height: 500px;
+    }
+
+
+}
